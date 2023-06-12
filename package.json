@@ -1,9 +1,25 @@
 {
   "name": "color-log",
   "version": "1.0.0",
-  "description": "",
+  "description": "A customizable and color-coded logging package for enhanced console output.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdnanIqbalKhan/color-log.git"
+  },
+  "keywords": [
+    "logging",
+    "console",
+    "colors",
+    "logger"
+  ],
+  "author": "Adnan Iqbal Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdnanIqbalKhan/color-log/issues"
+  },
+  "homepage": "https://github.com/AdnanIqbalKhan/color-log#readme",
   "exports": {
     ".": {
       "import": "./dist/index.js",
@@ -17,9 +33,6 @@
     "start": "node ./dist/index.js",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.3.0",
     "ts-node": "^10.9.1",

@@ -1,5 +1,2 @@
 node_modules
-src
-__test__
-tsconfig.json
-pnpm-lock.yaml
+test

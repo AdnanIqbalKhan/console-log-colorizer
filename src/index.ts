@@ -44,7 +44,7 @@ const CONTROL = {
     Hidden: getCode('8')
 } as const
 
-const CONSOLE_LOG = {
+const LEVELS = {
     "log": console.log,
     "error": console.error,
     "warn": console.warn,
@@ -57,8 +57,8 @@ function baseLogger(
     message: any[],
     bgColor: keyof typeof COLORS = "Black",
     fgColor: keyof typeof COLORS = "White",
-    level: keyof typeof CONSOLE_LOG = "log") {
-    CONSOLE_LOG[level](
+    level: keyof typeof LEVELS = "log") {
+    LEVELS[level](
         BG_COLORS[bgColor] + CONTROL.Bright,
         title, CONTROL.Reset,
         FG_COLORS[fgColor] + CONTROL.Dim,
@@ -97,6 +97,7 @@ export {
     global,
     logger,
     COLORS,
+    LEVELS,
 };
 export default logger
 
