@@ -1,12 +1,12 @@
 {
-  "name": "color-log",
+  "name": "console-log-colorizer",
   "version": "1.0.0",
   "description": "A customizable and color-coded logging package for enhanced console output.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdnanIqbalKhan/color-log.git"
+    "url": "https://github.com/AdnanIqbalKhan/console-log-colorizer.git"
   },
   "keywords": [
     "logging",
@@ -14,12 +14,16 @@
     "colors",
     "logger"
   ],
-  "author": "Adnan Iqbal Khan",
+  "author": {
+    "name": "Adnan Iqbal Khan",
+    "email": "hafizadnaniqbalkhan@gmail.com",
+    "url": "https://github.com/AdnanIqbalKhan"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AdnanIqbalKhan/color-log/issues"
+    "url": "https://github.com/AdnanIqbalKhan/console-log-colorizer/issues"
   },
-  "homepage": "https://github.com/AdnanIqbalKhan/color-log#readme",
+  "homepage": "https://github.com/AdnanIqbalKhan/console-log-colorizer#readme",
   "exports": {
     ".": {
       "import": "./dist/index.js",

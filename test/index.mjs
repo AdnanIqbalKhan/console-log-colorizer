@@ -1,4 +1,4 @@
-import Logger from 'color-log'
+import Logger from 'console-log-colorizer'
 
 Logger.log("Hello World")
 Logger.info("Hello World")

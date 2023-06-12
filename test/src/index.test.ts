@@ -1,4 +1,4 @@
-import myPackage from 'color-log';
+import myPackage from 'console-log-colorizer';
 
 const output = [[
     "",      // Expected first empty string
@@ -23,7 +23,7 @@ describe('My Package', () => {
     });
 
     it('should do something with require', () => {
-        const myPackageRequire = require('color-log');
+        const myPackageRequire = require('console-log-colorizer');
         // Write your test case here
 
         // Call the function that triggers the console.log statement
@@ -35,7 +35,7 @@ describe('My Package', () => {
     });
 
     it('should do something with import in JS file', () => {
-        const myPackageImportJS = require('color-log').default;
+        const myPackageImportJS = require('console-log-colorizer').default;
         // Call the function that triggers the console.log statement
         myPackageImportJS.log("Hello World");
 
