@@ -2,7 +2,7 @@
 
 "console-log-colorizer" is a lightweight npm package that provides color-coded logging functionality in the console. It allows you to print log messages with different background and foreground colors, enhancing the visual representation of your logs.
 
-![Alt text](./image.png)
+![Screenshot of console.log Output with console-log-colorizer Library](./image.png)
 ## Installation
 
 You can install the package via npm:
