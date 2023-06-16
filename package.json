@@ -1,6 +1,6 @@
 {
   "name": "console-log-colorizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customizable and color-coded logging package for enhanced console output.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
